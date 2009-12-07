@@ -1,21 +1,12 @@
 use 5.005;
 use ExtUtils::MakeMaker;
-use strict;
-
-WriteMakefile (
+# See lib/ExtUtils/MakeMaker.pm for details of how to influence
+# the contents of the Makefile that is written.
+WriteMakefile(
     NAME              => 'Bundle::dualLived',
-    VERSION_FROM      => 'lib/Bundle/dualLived.pm', 
-    dist              => {COMPRESS => 'gzip -9f', SUFFIX => 'gz' },
-    (
-        $] >= 5.005     
-            ? (ABSTRACT_FROM  => 'lib/Bundle/dualLived.pm', 
-               AUTHOR         => 'Kevin W. Henwood <Khen1950fx@aol.com>') 
-            : ()
-     ),
-     (
-            ExtUtils::MakeMaker->VERSION() gt '6.30' 
-                ?  ('LICENSE'  => 'perl')         
-                : ()
-        ),
-
-);  
+    VERSION_FROM      => 'lib/Bundle/dualLived.pm', # finds $VERSION
+    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
+    ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
+      (ABSTRACT_FROM  => 'lib/Bundle/dualLived.pm', # retrieve abstract from module
+       AUTHOR         => 'root <root@localdomain>') : ()),
+);

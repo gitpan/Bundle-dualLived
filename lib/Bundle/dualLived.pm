@@ -1,8 +1,8 @@
-packaage Bundle::dualLived;
+package Bundle::dualLived;
 
 use strict;
 
-$Bundle::dualLived::VERSION = '0.00_01';
+$Bundle::dualLived::VERSION = '0.00_02';
 
 1;
 
@@ -250,7 +250,7 @@ XSLoader
 
 Version 0.00_01 Kevin W. Henwood, <Khen1950fx@aol.com>
 
-head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT AND LICENSE
 
 Copyright (C) 2009 by Kevin W. Henwood
 

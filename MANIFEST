@@ -1,11 +1,8 @@
 Changes
 eq/Bundle-dualLived.pl
-lib/Bundle-dualLived.pm
 lib/Bundle/dualLived.pm
 Makefile.PL
-MANIFEST
-Readme
+MANIFEST			This list of files
 README
 t/Bundle-dualLived.t
-t/test.pl
 META.yml                                 Module meta-data (added by MakeMaker)
