@@ -1,12 +1,28 @@
-use 5.005;
-use ExtUtils::MakeMaker;
-# See lib/ExtUtils/MakeMaker.pm for details of how to influence
-# the contents of the Makefile that is written.
-WriteMakefile(
-    NAME              => 'Bundle::dualLived',
-    VERSION_FROM      => 'lib/Bundle/dualLived.pm', # finds $VERSION
-    PREREQ_PM         => {}, # e.g., Module::Name => 1.1
-    ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
-      (ABSTRACT_FROM  => 'lib/Bundle/dualLived.pm', # retrieve abstract from module
-       AUTHOR         => 'root <root@localdomain>') : ()),
-);
+BEGIN { require 5.005; }
+
+use inc::Module::Install;
+
+WriteMakefile (
+    'NAME'              => 'Bundle-dualLived',
+    'ABSTRACT'          => 'Updates dual-lived modules',
+    'VERSION'           => '0.00_03',
+    'PREREQ_PM'         => { 
+                           'CPAN' => 0,
+                           },
+    
+    'EXE_FILES'         => [qw(bin/dual-lived)],
+                                                        
+    'dist'              => {'COMPRESS' => 'gzip -9f', 
+                            'SUFFIX'   => '.gz', },
+    (
+        $] >= 5.005     
+            ? ( AUTHOR  => 'Kevin W. Henwood <Khen1950fx@aol.com>') 
+            : ()
+     ),
+     (
+            ExtUtils::MakeMaker->VERSION() gt '5.50' 
+                ?  ('LICENSE'  => 'perl')         
+                : ()
+        ),
+
+);  

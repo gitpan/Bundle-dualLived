@@ -1,21 +1,23 @@
---- #YAML:1.0
-name:               Bundle-dualLived
-version:            0.00_02
-abstract:           Update core dualLived modules
+---
+abstract: 'Updates dual-lived modules'
 author:
-    - root <root@localdomain>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Kevin W. Henwood <Khen1950fx@aol.com>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:  {}
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.54
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.91'
+license: unknown
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Bundle-dualLived
+name: Bundle-dualLived
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  CPAN: 0
+version: 0.00_03
