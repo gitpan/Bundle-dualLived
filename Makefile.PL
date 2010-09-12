@@ -5,12 +5,12 @@ use inc::Module::Install;
 WriteMakefile (
     'NAME'              => 'Bundle-dualLived',
     'ABSTRACT'          => 'Updates dual-lived modules',
-    'VERSION'           => '0.00_03',
+    'VERSION'           => '0.00_04',
     'PREREQ_PM'         => { 
                            'CPAN' => 0,
                            },
     
-    'EXE_FILES'         => [qw(bin/dual-lived)],
+    'EXE_FILES'         => [qw(bin/noncoredeps)],
                                                         
     'dist'              => {'COMPRESS' => 'gzip -9f', 
                             'SUFFIX'   => '.gz', },
