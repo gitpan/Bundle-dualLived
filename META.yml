@@ -3,9 +3,9 @@ abstract: 'Updates dual-lived modules'
 author:
   - 'Kevin W. Henwood <Khen1950fx@aol.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 5.50
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 5.50
 distribution_type: module
 generated_by: 'Module::Install version 0.91'
 license: Perl
@@ -20,4 +20,4 @@ no_index:
     - t
 requires:
   CPAN: 0
-version: 0.00_04
+version: 0.00_05
