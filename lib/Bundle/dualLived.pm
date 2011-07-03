@@ -2,7 +2,7 @@ package Bundle::dualLived;
 
 use strict;
 
-$Bundle::dualLived::VERSION = '0.00_05';
+$Bundle::dualLived::VERSION = '0.00_06';
 
 1;
 
@@ -60,13 +60,13 @@ CGI
 
 CPAN
 
+CPAN::Meta
+
 CPAN::Meta::YAML
 
 CPANPLUS
 
 CPANPLUS::Dist::Build
-
-Class::ISA
 
 Compress::Raw::Bzip2
 
@@ -196,8 +196,6 @@ Pod::Man
 
 Pod::Perldoc
 
-Pod::Plainer
-
 Pod::Simple
 
 Pod::Usage
@@ -209,8 +207,6 @@ SelfLoader
 Shell
 
 Storable
-
-Switch
 
 Sys::Syslog
 
@@ -250,6 +246,8 @@ Unicode::Collate
 
 Unicode::Normalize
 
+Version::Requirements
+
 Win32
 
 Win32API::File
@@ -258,7 +256,7 @@ XSLoader
 
 =head1 AUTHOR
 
-Version 0.00_05 Kevin W. Henwood, <Khen1950fx@aol.com>
+Version 0.00_06 Kevin W. Henwood, <Khen1950fx@aol.com>
 
 head1 COPYRIGHT AND LICENSE
 
