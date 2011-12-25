@@ -2,7 +2,7 @@ package Bundle::dualLived;
 
 use strict;
 
-$Bundle::dualLived::VERSION = '1.00';
+$Bundle::dualLived::VERSION = '1.01';
 
 1;
 
@@ -17,8 +17,6 @@ Bundle::dualLived - Update core dualLived modules
   perl -MCPAN -e 'install Bundle::dualLived'
 
 =head1 CONTENTS
-
-arybase
 
 autodie
 
