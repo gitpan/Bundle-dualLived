@@ -56,6 +56,8 @@ B::Debug
 
 B::Lint
 
+Carp
+
 CGI
 
 CPAN
@@ -140,7 +142,7 @@ JSON::PP
 
 List::Util
 
-Locale::Constants
+Locale::Codes::Constants
 
 Locale::Maketext
 

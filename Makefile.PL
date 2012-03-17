@@ -5,7 +5,7 @@ use inc::Module::Install;
 WriteMakefile (
     'NAME'              => 'Bundle-dualLived',
     'ABSTRACT'          => 'Updates dual-lived modules',
-    'VERSION'           => '1.01',
+    'VERSION'           => '1.02',
     'PREREQ_PM'         => { 
                            'CPAN' => 0,
                            },
