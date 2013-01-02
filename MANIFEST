@@ -1,13 +1,9 @@
 bin/noncoredeps
 Changes
-inc/Module/Install.pm
-inc/Module/Install/Base.pm
-inc/Module/Install/Makefile.pm
-inc/Module/Install/MakeMaker.pm
-inc/Module/Install/Metadata.pm
 lib/Bundle/dualLived.pm
 Makefile.PL
 MANIFEST
-META.yml
+META.json			Module JSON meta-data (added by MakeMaker)
+META.yml			Module YAML meta-data (added by MakeMaker)
 README
 t/Bundle-dualLived.t

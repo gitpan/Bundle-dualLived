@@ -22,6 +22,8 @@ CPAN::Shell->install(
 "CPAN::Test::Dummy::Perl5::Make::UnsatPrereq",
 "CPAN::Test::Dummy::Perl5::Make::Zip",
 "Term::ReadKey",
+"Term::ReadLine::Perl",
+"Term::ReadLine::Gnu",
 "Text::Glob",
 "File::Which",
 "Archive::Zip",

@@ -1,11 +1,9 @@
-BEGIN { require 5.005; }
-
-use inc::Module::Install;
+use ExtUtils::MakeMaker;
 
 WriteMakefile (
     'NAME'              => 'Bundle-dualLived',
     'ABSTRACT'          => 'Updates dual-lived modules',
-    'VERSION'           => '1.02',
+    'VERSION'           => '1.03',
     'PREREQ_PM'         => { 
                            'CPAN' => 0,
                            },
