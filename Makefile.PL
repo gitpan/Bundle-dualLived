@@ -1,9 +1,9 @@
 use ExtUtils::MakeMaker;
 
 WriteMakefile (
-    'NAME'              => 'Bundle-dualLived',
+    'NAME'              => 'Bundle::dualLived',
     'ABSTRACT'          => 'Updates dual-lived modules',
-    'VERSION'           => '1.03',
+    'VERSION'           => '1.04',
     'PREREQ_PM'         => { 
                            'CPAN' => 0,
                            },

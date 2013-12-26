@@ -2,7 +2,7 @@ package Bundle::dualLived;
 
 use strict;
 
-$Bundle::dualLived::VERSION = '1.03';
+$Bundle::dualLived::VERSION = '1.04';
 
 1;
 
@@ -44,8 +44,6 @@ version
 
 Test::Harness
 
-Archive::Extract
-
 Archive::Tar
 
 Attribute::Handlers
@@ -53,8 +51,6 @@ Attribute::Handlers
 AutoLoader
 
 B::Debug
-
-B::Lint
 
 Carp
 
@@ -68,23 +64,19 @@ CPAN::Meta::Requirements
 
 CPAN::Meta::YAML
 
-CPANPLUS
-
-CPANPLUS::Dist::Build
-
 Compress::Raw::Bzip2
 
 Compress::Raw::Zlib
 
 Compress::Zlib
 
+Config::Perl::V
+
 Cwd
 
 DB_File
 
 Data::Dumper
-
-Devel::InnerPackage
 
 Devel::PPPort
 
@@ -93,6 +85,10 @@ Digest
 Digest::MD5
 
 Digest::SHA
+
+Encode
+
+Env
 
 Exporter
 
@@ -138,17 +134,17 @@ IPC::Cmd
 
 IPC::Msg
 
+IPC::SysV
+
 JSON::PP
 
 List::Util
 
-Locale::Codes::Constants
+Locale::Codes
 
 Locale::Maketext
 
 Locale::Maketext::Simple
-
-Log::Message
 
 MIME::Base64
 
@@ -174,9 +170,11 @@ Module::Loaded
 
 Module::Metadata
 
-Module::Pluggable
-
 Net::Cmd
+
+Net::Ping
+
+NEXT
 
 Package::Constants
 
@@ -192,8 +190,6 @@ Pod::Checker
 
 Pod::Escapes
 
-Pod::LaTeX
-
 Pod::Man
 
 Pod::Perldoc
@@ -206,7 +202,7 @@ Safe
 
 SelfLoader
 
-Shell
+Search::Dict
 
 Socket
 
@@ -218,17 +214,17 @@ Term::ANSIColor
 
 Term::Cap
 
-Term::UI
+Term::ReadLine
 
 Test
 
 Test::Simple
 
+Text::Abbrev
+
 Text::Balanced
 
 Text::ParseWords
-
-Text::Soundex
 
 Text::Tabs
 
@@ -258,7 +254,7 @@ XSLoader
 
 =head1 AUTHOR
 
-Version 1.03 Kevin W. Henwood, <Khen1950fx@aol.com>
+Version 1.04 Kevin W. Henwood, <Khen1950fx@yahoo.com>
 
 head1 COPYRIGHT AND LICENSE
 
