@@ -2,7 +2,7 @@ package Bundle::dualLived;
 
 use strict;
 
-$Bundle::dualLived::VERSION = '1.04';
+$Bundle::dualLived::VERSION = '1.05';
 
 1;
 
@@ -128,6 +128,8 @@ IO
 
 IO::Compress::Base
 
+IO::Socket::IP
+
 IO::Zlib
 
 IPC::Cmd
@@ -185,8 +187,6 @@ Parse::CPAN::Meta
 Perl::OSType
 
 PerlIO::via::QuotedPrint
-
-Pod::Checker
 
 Pod::Escapes
 
@@ -254,11 +254,11 @@ XSLoader
 
 =head1 AUTHOR
 
-Version 1.04 Kevin W. Henwood, <Khen1950fx@yahoo.com>
+Version 1.05 Kevin W. Henwood, <Khen1950fx@yahoo.com>
 
 head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2010-2013 by Kevin W. Henwood
+Copyright (C) 2014 by Kevin W. Henwood
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,

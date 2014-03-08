@@ -1,14 +1,27 @@
 Revision history for Perl extension Bundle::dualLived.
 
+1.00  Fri Dec 23 17:50:55 2011
+   - original version; created by h2xs 1.23 with options
+      -ABX -b 5.5.0 -n Bundle::dualLived
+      
+1.01  Sat Dec 24 17:55:50 2011
+   - original version; created by h2xs 1.23 with options
+      -ABX -b 5.5.0 -n Bundle::dualLived
+
 1.02  Sat Mar 17 06:14:12 2012
 	- original version; created by h2xs 1.23 with options
 		-ABX -b 5.5.0 -n Bundle::dualLived
+
 1.03  Tues Jan 01 17:17:30 2013
-        - original version; created by h2xs 1.23 with options
-                -ABX -b 5.5.0 -n Bundle::dualLived
+   - original version; created by h2xs 1.23 with options
+      -ABX -b 5.5.0 -n Bundle::dualLived
 
 1.04  Thu Dec 26 13:58:03 2013
 	- original version; created by h2xs 1.23 with options
 		-ABX -b 5.5.0 -n Bundle::dualLived
          - current with 5.19.8
 
+1.05  Sat Mar  8 13:48:53 2014
+	- original version; created by h2xs 1.23 with options
+		-ABX -b 5.5.0 -n Bundle::dualLived
+         - current with 5.19.8

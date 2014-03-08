@@ -3,7 +3,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile (
     'NAME'              => 'Bundle::dualLived',
     'ABSTRACT'          => 'Updates dual-lived modules',
-    'VERSION'           => '1.04',
+    'VERSION'           => '1.05',
     'PREREQ_PM'         => { 
                            'CPAN' => 0,
                            },

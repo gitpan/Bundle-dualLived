@@ -1,4 +1,4 @@
-Bundle::dualLived version 1.04
+Bundle::dualLived version 1.05
 =================================
 
 INSTALLATION
@@ -13,9 +13,9 @@ This module requires these other modules and libraries:
 
   CPAN
 
-COPYRIGHT AND LICENCE
+COPYRIGHT AND LICENSE
 
-Copyright (C) 2010-2013 by Kevin W. Henwood
+Copyright (C) 2014 by Kevin W. Henwood
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.8 or,
